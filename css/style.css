@@ -1,170 +1,190 @@
 /*desktop resolution*/
 /*desktop resolution*/
 
-html,body{
-    background-color:rgb(0, 0, 0);
-    margin:0;
+html,
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
 }
-    header{
-        position:relative;
-        width:100%;
-        /*background-color:rgb(146, 253, 45);*/
-    }
-    h1{margin:0}
-    .conteiner{
-        position:relative;
-        display:flex;
-        /*flex-wrap:wrap;*/
-        /*flex-direction:row;*/
-        /*background-color:yellow;*/
-        height:200px;
-        border-bottom: 3px solid brown;
-    }
-        .conteiner #divheaderimg{
-            width:25%;
-            height:200px;
-            /*background-color:blue;*/
-        }
-            #divheaderimg #thinkmen{
-                /*border: 3px solid orange;*/
-                width:100%;
-                height:100%;
-            }
-         
-        #conteinerh1{
-            display:flex;
-            margin:0;
-            position:relative;
-            flex-wrap: wrap;
-            flex-direction:column;               
-            width:75%;
-            height:auto;;
-            /*background-color:rgb(247, 0, 214);*/
-        }
-            #h1div{
-                position:relative;
-                margin:0;
-                display:flex;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
-                font-size:32pt;
-                color:brown;
-                text-shadow: 4px 4px 2px rgb(255, 255, 255);
-                width:100%;
-                height:60%;
-                /*background-color:orange;*/
-                
-            }
-            #h2div{  
-                margin:0;
-                display:flex;
-                align-items: center;
-                justify-content: center;
-                font-size:24pt;
-                color:rgb(165, 42, 42);
-                text-shadow: 2px 2px 2px rgb(255, 255, 255);
-                width:100%;
-                /*background-color:green;*/
-                height:40%;
-            }
-            #butinterface{
-                position:relative;
-                height:70px;
-                /*background-color:rgb(22, 199, 184);*/
-                width:auto;
-                display:flex;
-                align-items: center;
-                justify-content: center;
-                border-bottom: 3px solid brown;
-            }
-            .buttons{
-                position:relative;
-                color:white;
-                text-shadow: 2px 2px 2px brown;
-                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                font-size:14pt;
-                width:150px;
-                height:50px;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-                margin:4px;
-                display:flex;
-                flex-grow:0;
-                justify-content: space-around;
-                margin:20px;
-                border: transparent;
-                background-color:rgba(165, 42, 42, 0);
-                overflow:hidden;
-                border-radius:10px;
-            }
-            #but1{
-                background-color:rgba(165, 42, 42, 0.3);
-            }
-            .buttons:hover{
-                background-color:rgba(165, 42, 42, 0.3);
-                text-shadow: 3px 3px 2px rgb(0, 0, 0);
-                color:white;
-                cursor: pointer;
-            }
+
+header {
+    position: relative;
+    width: 100%;
+    /*background-color:rgb(146, 253, 45);*/
+}
+
+h1 {
+    margin: 0
+}
+
+.conteiner {
+    position: relative;
+    display: flex;
+    /*flex-wrap:wrap;*/
+    /*flex-direction:row;*/
+    /*background-color:yellow;*/
+    height: 200px;
+    border-bottom: 3px solid brown;
+}
+
+.conteiner #divheaderimg {
+    width: 25%;
+    height: 200px;
+    /*background-color:blue;*/
+}
+
+#divheaderimg #thinkmen {
+    /*border: 3px solid orange;*/
+    width: 100%;
+    height: 100%;
+}
+
+#conteinerh1 {
+    display: flex;
+    margin: 0;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 75%;
+    height: auto;
+    ;
+    /*background-color:rgb(247, 0, 214);*/
+}
+
+#h1div {
+    position: relative;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 32pt;
+    color: brown;
+    text-shadow: 4px 4px 2px rgb(255, 255, 255);
+    width: 100%;
+    height: 60%;
+    /*background-color:orange;*/
+
+}
+
+#h2div {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24pt;
+    color: rgb(165, 42, 42);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    width: 100%;
+    /*background-color:green;*/
+    height: 40%;
+}
+
+#butinterface {
+    position: relative;
+    height: 70px;
+    /*background-color:rgb(22, 199, 184);*/
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid brown;
+}
+
+.buttons {
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14pt;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4px;
+    display: flex;
+    flex-grow: 0;
+    justify-content: space-around;
+    margin: 20px;
+    border: transparent;
+    background-color: rgba(165, 42, 42, 0);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#but1 {
+    background-color: rgba(165, 42, 42, 0.3);
+}
+
+.buttons:hover {
+    background-color: rgba(165, 42, 42, 0.3);
+    text-shadow: 3px 3px 2px rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
 
 /*=---------------------------------------------*/
 /*MIDDLE---*/
 /*MIDDLE---*/
 
 /* div que vai passar o conteudo */
-#sectionmaster_middle{
-    position:relative;
-    display:flex;
+#sectionmaster_middle {
+    position: relative;
+    display: flex;
     flex-direction: column;
-    width:100%;
+    width: 100%;
     /*background-color:rgba(53, 170, 63,0.5);*/
     height: 1000px;
 }
-    #h3welcome{
-        display:flex;
-        width:100%;
-        position:relative;
-        height:100px;
-        justify-content: center;
-    }
-        h4{
-            color:white;
-            text-shadow: 1px 1px 1px brown;
-            width:90%;
-            /*background-color:blueviolet*/
-            font: normal 18pt Arial;
-            text-align: justify;
-            text-indent: 50px;
-            margin:0;
-        }
-    #myapresentation{
-        display:flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        justify-content: space-around;
-        /*background-color:orange;*/
-        width:100%;
-        height:600px;
-    }
-        #mystoryParag{
-            color:white;
-            text-shadow: 2px 2px 1px brown;
-            text-indent: 50px;
-            text-align: justify;
-            font:normal 21pt Cursive;
-            width:58%;
-            height:560px;
-            /*background-color:aqua;*/
-            margin:0;
-        }
-        #myphoto{
-            width:40%;
-            height:400px;
-            border-radius: 50%;
-            border: 3px solid brown;
-        }
+
+#h3welcome {
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 100px;
+    justify-content: center;
+}
+
+h4 {
+    color: white;
+    text-shadow: 1px 1px 1px brown;
+    width: 90%;
+    /*background-color:blueviolet*/
+    font: normal 18pt Arial;
+    text-align: justify;
+    text-indent: 50px;
+    margin: 0;
+}
+
+#myapresentation {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    /*background-color:orange;*/
+    width: 100%;
+    height: 600px;
+}
+
+#mystoryParag {
+    color: white;
+    text-shadow: 2px 2px 1px brown;
+    text-indent: 50px;
+    text-align: justify;
+    font: normal 21pt Cursive;
+    width: 58%;
+    height: 560px;
+    /*background-color: aqua;*/
+    margin: 0;
+}
+
+#myphoto {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid brown;
+}
 
 /* div que vai passar o conteudo */
 
@@ -173,16 +193,16 @@ html,body{
 /*----------------------------------------------*/
 /*FOOTER------*/
 /*FOOTER------*/
-footer{
-    position:fixed;
-    bottom:0;
+footer {
+    position: fixed;
+    bottom: 0;
     place-content: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-items: center;
-    display:flex;
-    background-color:brown;
-    width:100%;
-    height:35px;
+    display: flex;
+    background-color: brown;
+    width: 100%;
+    height: 35px;
     text-shadow: 1px 1px 12px black;
 }
 
@@ -200,116 +220,127 @@ footer{
 /*----------------------------------------------------*/
 
 /*  Smartphone resolution*/
-@media (max-width:900px) and (orientation:portrait){
+@media (max-width:900px) and (orientation:portrait) {
 
-/*-----header-----*/    
+    /*-----header-----*/
 
-    body{
-        display:flex;
+    body {
+        display: flex;
         flex-wrap: wrap;
         flex-direction: column;
     }
 
-    header{
-        height:500px;
+    header {
+        height: 500px;
     }
 
-    .conteiner{
-        position:relative;
-        display:flex;
+    .conteiner {
+        position: relative;
+        display: flex;
         flex-direction: column;
-        width:100%;
+        width: 100%;
         height: 640px;
     }
-        .conteiner #divheaderimg{
-            width:100%;
-            height:340px;
-            border-bottom: 3px solid gray;
-        }
-    #conteinerh1{
-        margin:0;
-        display:flex;
-        flex-wrap:wrap;
-        flex-direction: column;
-        position:relative;               
-        width:100%;
-        height:300px;
+
+    .conteiner #divheaderimg {
+        width: 100%;
+        height: 340px;
+        border-bottom: 3px solid gray;
     }
-    #h1div{
+
+    #conteinerh1 {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+
+    #h1div {
         text-align: center;
-        font-size:20pt;
-        height:60%;
+        font-size: 20pt;
+        height: 60%;
         text-shadow: 2px 2px 1px rgb(255, 255, 255);
     }
-    #h2div{
-        height:40%;
-        font-size:14pt;
+
+    #h2div {
+        height: 40%;
+        font-size: 14pt;
         text-shadow: 1px 1px 1px rgb(255, 255, 255);
     }
-    #butinterface{
-        display:grid;
-        grid-template-columns: 180px 180px ;
-        height:190px;
-        margin:5px;
-        justify-items:center;
+
+    #butinterface {
+        display: grid;
+        grid-template-columns: 180px 180px;
+        height: 190px;
+        margin: 5px;
+        justify-items: center;
     }
-    .buttons{
-        border:3px solid brown;
+
+    .buttons {
+        border: 3px solid brown;
         text-shadow: 2px 2px 1px brown;
-        margin:0;
-    }
-    header{
-        height:841px;
+        margin: 0;
     }
 
-/* ------Header---------*/
-
-/*-------------------------------------------------*/
-    
-/* ----middle------*/
-
-#sectionmaster_middle{
-    height:1500px;
-}
-    #h3welcome{
-        height:160px;
+    header {
+        height: 841px;
     }
-        h4{
-            font: normal 14pt Arial;
-        }
-    
-        #myapresentation{
-            display:flex;
-            flex-direction:column;
-            height:635px;
-            justify-content: space-around;
-        }
-            #mystoryParag{
-                font: normal 12pt Cursive;
-                width:100%;
-                height:300px;
 
-            }
-            #myphoto{
-                width:80%;
-                height:300px;
-            }
-    
-    
+    /* ------Header---------*/
 
-/* ----middle------*/  
+    /*-------------------------------------------------*/
 
-/*---------------------------------------------------*/
+    /* ----middle------*/
 
-/*-----FOOTER------*/
+    #sectionmaster_middle {
+        height: 1500px;
+    }
 
-footer{
-    position:static;
-    height:20px;
-    font-size:8pt;
-}
+    #h3welcome {
+        height: 160px;
+    }
 
-/*-----FOOTER------*/
+    h4 {
+        font: normal 14pt Arial;
+    }
+
+    #myapresentation {
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        justify-content: space-around;
+    }
+
+    #mystoryParag {
+        font: normal 12pt Cursive;
+        width: 95%;
+        height: 350px;
+
+    }
+
+    #myphoto {
+        width: 200px;
+        height: 200px;
+    }
+
+
+
+    /* ----middle------*/
+
+    /*---------------------------------------------------*/
+
+    /*-----FOOTER------*/
+
+    footer {
+        position: static;
+        height: 20px;
+        font-size: 8pt;
+    }
+
+    /*-----FOOTER------*/
 
 }
 
@@ -319,90 +350,99 @@ footer{
 
 /* min full HD resolution*/
 
-@media screen and (min-width:1920px){
+@media screen and (min-width:1920px) {
 
-    body{
-        margin:0;
+    body {
+        margin: 0;
     }
 
-    #h1div{
+    #h1div {}
 
-    }
-    .conteiner{
+    .conteiner {
         height: 250px;
     }
 
-    .conteiner #divheaderimg{
-        width:20%;
-        
+    .conteiner #divheaderimg {
+        width: 20%;
+
     }
-    #conteinerh1{
-        width:80%;
+
+    #conteinerh1 {
+        width: 80%;
     }
-    #h1div{
-        font-size:70pt;
+
+    #h1div {
+        font-size: 70pt;
     }
-    #h2div{
-        font-size:30pt;
-        width:40%;
+
+    #h2div {
+        font-size: 30pt;
+        width: 40%;
         align-self: center;
 
     }
-    .buttons{
+
+    .buttons {
         flex-grow: 0;
-        margin:40px;
-    }
-    .conteiner #divheaderimg{
-        width:20%;
-        height:auto;
+        margin: 40px;
     }
 
-/*----------------------------------------*/
+    .conteiner #divheaderimg {
+        width: 20%;
+        height: auto;
+    }
 
-/*___MIDDLE___*/
+    /*----------------------------------------*/
 
-#sectionmaster_middle{
-    height:1200px;
-}
-    #h3welcome{
-        height:80px;
+    /*___MIDDLE___*/
+
+    #sectionmaster_middle {
+        height: 1200px;
+    }
+
+    #h3welcome {
+        height: 80px;
 
     }
-        h4{
-            font-size:22pt;
-        }
-    
-        #myapresentation{
-            height:880px;
-            justify-content: space-around;
-        }
-            #mystoryParag{
-                font-size:32pt;
-                width:50%;
-                height:800px;
-            }
-            #myphoto{
-                border: 6px solid brown;
-                width:35%;
-                height:680px
-            }
+
+    h4 {
+        font-size: 22pt;
+    }
+
+    #myapresentation {
+        height: 880px;
+        justify-content: space-around;
+    }
+
+    #mystoryParag {
+        font-size: 32pt;
+        width: 50%;
+        height: 800px;
+    }
+
+    #myphoto {
+        border: 6px solid brown;
+        width: 600px;
+        height: 600px
+    }
 
 
 
 
-/*___MIDDLE___*/
+    /*___MIDDLE___*/
 
-/*----------------------------------------*/
+    /*----------------------------------------*/
 
-/*-----FOOTER------*/
+    /*-----FOOTER------*/
 
-footer{
-    height:45px;
-    font-size:16pt;
+    footer {
+        height: 45px;
+        font-size: 16pt;
+    }
+
+    /*-----FOOTER------*/
+
 }
 
-/*-----FOOTER------*/
-
-}
 /* min full HD resolution*/
 /* min full HD resolution*/
